@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file, which follo
 on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
+## [25.104.2] - 2026-09-14
+### Changed
+- Updated `microservice-framework` to 25.104.2, which carries `framework-libraries` 25.104.2 and its new `liquibase-postgres-compatibility` module. Nothing here consumes that module directly — the bump keeps the framework chain on the current release.
+
 ## [25.104.1] - 2026-09-11
 ### Changed
 - Updated the parent `maven-framework-parent-pom` to 25.104.1 to take the changes from it
