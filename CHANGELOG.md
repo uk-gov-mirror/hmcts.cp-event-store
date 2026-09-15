@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file, which follo
 on [Keep a CHANGELOG](http://keepachangelog.com/). This project adheres to
 [Semantic Versioning](http://semver.org/).
 
+## [25.104.3] - 2026-09-15
+### Changed
+- Updated `microservice-framework` to 25.104.3, carrying `framework-libraries` 25.104.3 and its `framework-libraries-bom` entry for `liquibase-postgres-compatibility`. Nothing here consumes it directly; the bump passes the BOM entry on to the platform poms.
+
 ## [25.104.2] - 2026-09-14
 ### Changed
 - Updated `microservice-framework` to 25.104.2, which carries `framework-libraries` 25.104.2 and its new `liquibase-postgres-compatibility` module. Nothing here consumes that module directly — the bump keeps the framework chain on the current release.
